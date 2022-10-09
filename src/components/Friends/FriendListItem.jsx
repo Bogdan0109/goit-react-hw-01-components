@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from './Friend.module.css';
 
 function FriendListItem({ avatar, name, isOnline }) {
@@ -11,5 +12,11 @@ function FriendListItem({ avatar, name, isOnline }) {
     </>
   );
 }
+
+FriendListItem.propTypes = {
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  isOnline: PropTypes.bool.isRequired,
+};
 
 export default FriendListItem;
