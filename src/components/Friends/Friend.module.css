@@ -17,13 +17,17 @@
 }
 
 .status {
-  height: 10px;
-  width: 10px;
+  height: 15px;
+  width: 15px;
   border-radius: 50%;
   text-align: center;
   vertical-align: middle;
   position: relative;
-  background-color: black;
+  background-color: red;
+}
+
+.status__online {
+  background-color: green;
 }
 
 .avatar {
