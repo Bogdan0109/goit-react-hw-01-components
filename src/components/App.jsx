@@ -1,16 +1,35 @@
-export const App = () => {
+import Profile from './Profile/Profile';
+import Statistics from './Statistics/Statistics';
+import user from '../data/user.json';
+import data from '../data/data.json';
+
+export function App() {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        flexDirection: 'column',
+        padding: '100px',
+        gap: '30px',
+
         fontSize: 40,
-        color: '#010101'
+
+        color: '#010101',
+        backgroundColor: 'hsla(210,18%,87%,1)',
       }}
     >
-      React homework template
+      <Profile
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
+
+      <Statistics title="Upload stats" stats={data} />
+      <Statistics stats={data} />
     </div>
   );
-};
+}
