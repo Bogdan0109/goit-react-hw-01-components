@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Bogdan0109/goit-react-hw-01-components.git/static/css/main.95d2d6f4.css",
-    "main.js": "/Bogdan0109/goit-react-hw-01-components.git/static/js/main.646bfce6.js",
+    "main.js": "/Bogdan0109/goit-react-hw-01-components.git/static/js/main.d5df0a59.js",
     "index.html": "/Bogdan0109/goit-react-hw-01-components.git/index.html",
     "main.95d2d6f4.css.map": "/Bogdan0109/goit-react-hw-01-components.git/static/css/main.95d2d6f4.css.map",
-    "main.646bfce6.js.map": "/Bogdan0109/goit-react-hw-01-components.git/static/js/main.646bfce6.js.map"
+    "main.d5df0a59.js.map": "/Bogdan0109/goit-react-hw-01-components.git/static/js/main.d5df0a59.js.map"
   },
   "entrypoints": [
     "static/css/main.95d2d6f4.css",
-    "static/js/main.646bfce6.js"
+    "static/js/main.d5df0a59.js"
   ]
 }
